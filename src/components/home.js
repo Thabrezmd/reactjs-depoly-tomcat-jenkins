@@ -10,15 +10,11 @@ const Home = () => {
       {/* <button className="btn btn-success" > Register </button> */}
       <div className="container">
         <div className="row">
-          <NavLink to={"/register"} className="btn btn-primary">
-            Register
-          </NavLink>
+          <NavLink to={"/register"} className="btn btn-primary">Register</NavLink>
        
-        <div className="main">
-          <NavLink to={"/binary"} className="btn btn-primary">
-            View
-          </NavLink>
-        </div>
+            <div className="main">
+                <NavLink to={"/binary"} className="btn btn-primary"> View</NavLink>
+            </div>
         </div>
 
         {/* <button className="btn btn-info" > View </button> */}
