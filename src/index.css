@@ -12,9 +12,9 @@ code {
     monospace;
 }
 
-/* .main{
-  margin: 50px;
-} */
+.headings{
+  margin-top: 100px;
+}
 
 .row{
   justify-content: center;

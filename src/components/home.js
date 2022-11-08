@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <>
-      <h1>Welcome Home Page </h1>
+      <h1 className="headings">Welcome Home Page </h1>
       {/* <button className="btn btn-success" > Register </button> */}
       <div className="container">
         <div className="row">
