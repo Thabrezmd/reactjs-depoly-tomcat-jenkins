@@ -6,37 +6,37 @@ import './App.css';
 //import Binary from './components/binary'
 //import Navbar from './components/navbar';
 //
-const Routing=()=>{
-  return(
-    <>
-      <Routes>
-        <Route path="/" element={<Home/>} />  
-        <Route path="/register" element={<Register/>} />
-        <Route path="/binary" element={<Binary/>} />
+// const Routing=()=>{
+ // return(
+   // <>
+     // <Routes>
+     //   <Route path="/" element={<Home/>} />  
+       // <Route path="/register" element={<Register/>} />
+       // <Route path="/binary" element={<Binary/>} />
 
-      </Routes>
-    </>
-  )
-}
+     // </Routes>
+   // </>
+ // )
+// }
 
 const App=()=> {
   const [login, setLogin]= useState("")
 
-  useEffect(()=>{
-    let userInf= localStorage.getItem('user')
-    userInf= JSON.parse(userInf)
+  // useEffect(()=>{
+    // let userInf= localStorage.getItem('user')
+  //  userInf= JSON.parse(userInf)
  //   setLogin(userInf)
-}, [])  
+// }, [])  
 
 
-  return (
-    <>
-    <div className="App">
-      <Navbar/>
-      <Routing/>
-    </div>
-    </>
-  );
-}
+//  return (
+    // <>
+  //  <div className="App">
+   //   <Navbar/>
+    //  <Routing/>
+   // </div>
+   // </>
+  // );
+// }
 
-export default App;
+ // 1export default App;
