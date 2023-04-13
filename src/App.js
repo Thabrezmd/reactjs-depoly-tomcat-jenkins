@@ -1,11 +1,11 @@
 import './App.css';
-import react, {useEffect, useState} from 'react';
-import {Routes, Route} from 'react-router-dom'
-import Home from "./components/home"
-import Register from './components/form'
-import Binary from './components/binary'
-import Navbar from './components/navbar';
-
+//import react, {useEffect, useState} from 'react';
+//import {Routes, Route} from 'react-router-dom'
+//import Home from "./components/home"
+//import Register from './components/form'
+//import Binary from './components/binary'
+//import Navbar from './components/navbar';
+//
 const Routing=()=>{
   return(
     <>
@@ -25,7 +25,7 @@ const App=()=> {
   useEffect(()=>{
     let userInf= localStorage.getItem('user')
     userInf= JSON.parse(userInf)
-    setLogin(userInf)
+ //   setLogin(userInf)
 }, [])  
 
 
