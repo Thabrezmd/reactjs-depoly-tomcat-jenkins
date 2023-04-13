@@ -39,4 +39,4 @@ import Navbar from './components/navbar';
    );
  }
 
-  1export default App;
+  export default App;
