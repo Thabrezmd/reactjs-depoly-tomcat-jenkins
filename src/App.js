@@ -19,8 +19,8 @@ import './App.css';
  // )
 // }
 
-const App=()=> {
-  const [login, setLogin]= useState("")
+// const App=()=> {
+ // const [login, setLogin]= useState("")
 
   // useEffect(()=>{
     // let userInf= localStorage.getItem('user')
